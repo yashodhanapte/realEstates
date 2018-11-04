@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apte Real Estates | Investments | Construction</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Including external stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon_A.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!-- Nav bar starts here -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="150">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="index.html">Apte Real Estates</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li class=""><a href="aboutus.html">About Us</a></li>
+	        <li><a href="services.html">Services</a></li>
+	        <li><a href="gallery.html">Photo Gallery</a></li>
+	        <li><a href="contactus.html">Contact Us</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav">
+	        <li><a href="registration.html"><span class="glyphicon glyphicon-user"></span> Registration</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+			<form class="navbar-form navbar-left">
+			<div class="form-group">
+			<input type="text" class="form-control" placeholder="Search">
+			</div>
+			<button type="submit" class="btn btn-default button_height"><span class="glyphicon glyphicon-search"></span></button>
+			</form>
+		  </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- Nav bar ends here -->
+
+	<div class="page_title_contactus">
+		<div class="jumbotron text-center">
+
+			<h1 class="animated zoomIn"> Registration</h1>
+		</div>
+	</div>
+	<div class="row errordiv">
+		<h2 class="col-sm-12 errorh2 text-center" id="errortext"></h2>
+	</div>
+	<div class="container marginbottom30px">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="images/estate_agent.jpg" class="img-responsive marginbottom30px">
+				<!-- <div class="registration_backgroundimage">
+				</div> -->
+			</div>
+			<div class="col-sm-6">
+			<form> <!--method="post" action="sendmail.php"-->
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="marginbottom30px">
+							<form><input type="text" class="form-control" name="firstname" placeholder="First Name*" id="fname" onblur="notempty1()" onkeypress="focusaftererror1()"></form>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="marginbottom30px">
+							<input type="text" required class="form-control" name="lastname" placeholder="Last Name*" id="lname" onblur="notempty2()" onfocus="focusaftererror2()">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="marginbottom30px">
+							<textarea rows="4" class="form-control" name="res_address" placeholder="Residencial Address" id="r_address"></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="marginbottom30px">
+							<textarea rows="4" type="text" class="form-control" name="off_address" placeholder="Office Address" id="o_address"></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="marginbottom30px">
+							<input type="text" required class="form-control" name="phone" placeholder="Phone*" id="phone" onblur="notempty3()" onfocus="focusaftererror3()">
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="marginbottom30px">
+							<input type="text" required class="form-control" name="email" placeholder="Email*" id="email" onblur="notempty4()" onfocus="focusaftererror4()">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="marginbottom30px">
+							<input type="text" type="text" class="form-control" name="location" placeholder="Preferred Location" id="location">
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-sm-4"></div>
+					<div class="col-sm-4 text-center">
+						<a href="/docs/4.0/getting-started/download/" id="regbutton" class="btn btn-lg mb-3 mb-md-0 mr-md-3 originalcolor" onmouseover="animatebutton()" onmouseout="UNanimatebutton()">Register</a>
+						<!-- <input type="button" class="btn btn-success" value="Register"> -->
+					</div>
+					<div class="col-sm-4"></div>
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer starts here -->
+		<footer class="footer mainfooter">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h3>Apte Real Estates &copy; 2017 | Forming the Future of Real Estate</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4 text-center">
+					<div class="fb">
+						<a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+					</div>
+					<div class="fb">
+						<a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					</div>
+					<div class="fb">
+						<a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+					</div>
+					<div class="fb">
+						<a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+					</div>
+					<div class="fb">
+						<a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="col-sm-4"></div>
+			</div>
+		</footer>
+	<!-- Footer ends here -->
+
+	<!-- Including external scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

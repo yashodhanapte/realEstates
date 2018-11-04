@@ -1,0 +1,228 @@
+body{
+	background-color:#212121;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:black;
+}
+.homepage_background{
+	background-image:url("../images/home_image2.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+	background-position: center;
+    background-repeat: no-repeat;
+	width:100%;
+	height:710px;
+	display:block;
+	top:0;
+	left:0;
+	margin-bottom:30px;
+}
+.features{
+	margin-bottom:30px;
+}
+.margintop50px{
+	margin-top:50px;
+}
+.registration_backgroundimage{
+	background-image:url("../images/estate_agent.jpg");
+	/*background-attachment: fixed;*/
+	background-attachment: scroll;
+	/*background-size:cover;*/
+	/*background-position: center;*/
+    background-repeat: no-repeat;
+	width:100%;
+	height:500px;
+}
+.text_on_image{
+	color:#000011;
+	text-align: center;
+	padding-top:70px;
+	/*background-attachment: fixed;*/
+	font-family: 'Muli', sans-serif;
+	font-size:63px;
+	line-height: 69.3px;
+	font-weight: 500;
+}
+.registration_div{
+	background-color:#242E66;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:3%;
+	padding:50px;
+	border-radius:25px;
+}
+.q{
+	background-color:#1766A6;
+	padding:20px;
+}
+.result{
+	text-align: center;
+}
+.form_title{
+	text-align: center;
+}
+.page_title_contactus{
+	margin-top:50px;
+}
+#map{
+	height: 500px;
+	width: 100%;
+	margin-top:20px;
+	margin-bottom: 50px;
+	padding:20px 50px 20px 50px;
+}
+.TheLocationDiv{
+	background-color:#212121;
+}
+.separation{
+	display:flex;
+	width:100%;
+	/*height:100px;*/
+	/*background-color:#eca91f;*/
+	background-color:#212121;
+	padding:25px;
+}
+.WhiteColorText{
+	color:#ffffff;
+}
+.offWhiteColorText{
+	color:#ffffb0;
+}
+.featuresText{
+	font-size:50px;
+}
+.allPtags{
+	font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding:5px 10px;
+}
+.form-control{
+	display: block;
+    width: 100%;
+    /*height: 34px;*/
+    height: 43px;
+    border-color: rgba(0,0,0,.1);
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.marginbottom30px{
+	margin-bottom:30px;
+}
+.marginbottom170px{
+	margin-bottom:155px;
+}
+.trans1{
+	background-color:#555;
+	/*opacity:.5;*/
+}
+.textontrans1{
+	color:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.trans2{
+	background-color:#555;
+	/*opacity:.5;*/
+}
+.textontrans2{
+	color:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.trans3{
+	background-color:#555;
+	/*opacity:.5;*/
+}
+.textontrans3{
+	color:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.mainfooter{
+	background-color:#00897b;
+	height:100px;
+}
+.greenbackgroundcolor{
+	background-color:#00897b;	
+}
+.divborders{
+	border:1px solid #ffffb0;
+	padding:5px 20px;
+}
+.errordiv{
+	height:100px;
+}
+.errorh2{
+	color:red;
+}
+.navbar-brand{
+	font-size:22px !important;
+}
+.boostvalue{
+	line-height: 75px; 
+	letter-spacing: 1.3px;
+}
+.button_height{
+	height:43px !important;
+}
+ul.navbar-nav li{
+	font-size:16px;
+}
+.facebook1{
+	height:50px;
+	width:50px;
+	border-radius:50px;
+	/*border: 1px solid red;*/
+	background-color:#fff;
+}
+.fb{
+	width:50px;
+	height:50px;
+	border-radius:50px;
+	display:inline-block;
+}
+.originalcolor{
+	border-color:#00897b;
+	color:#fff;
+}
+.newcolor{
+	border-color:#00897b;
+	background-color:#00897b;
+	color:#000;
+}
+@media screen and (max-width: 420px ){
+	.text_on_image{
+	color:#000011;
+	text-align: center;
+	padding-top:100px;
+	background-attachment: fixed;
+	font-family: 'Muli', sans-serif;
+	font-size:45px;
+	}
+}
+@media screen and (max-width: 768px ){
+	.text_on_image{
+	color:#000011;
+	text-align: center;
+	padding-top:90px;
+	background-attachment: fixed;
+	font-family: 'Muli', sans-serif;
+	font-size:57px;
+	}
+}
